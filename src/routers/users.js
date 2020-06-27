@@ -14,12 +14,6 @@ router.post('/users', async(req, res) => {
     }catch (e) {
         res.status(404).send(e)
     }
-    // Not async
-    // user.save().then(() => {
-    //     res.send(user)
-    // }).catch((e)=>{
-    //    res.status(404).send(e)
-    // })
 })
 
 // post
