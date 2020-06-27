@@ -1,4 +1,3 @@
-// learn with Postman too
 const express = require('express')
 require('./db/mongoose')
 const userRouter = require('./routers/users.js')
